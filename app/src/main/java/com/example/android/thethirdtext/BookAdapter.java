@@ -16,7 +16,6 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ViewHolder> {
     private List<Book> myBookList;
 
     static class ViewHolder extends RecyclerView.ViewHolder{
-        public View titel;
         TextView bookName;
 
         public ViewHolder(View view){
@@ -44,10 +43,10 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         if (position % 2 == 0) {
-            holder.titel.setBackgroundColor(Color.BLUE);
+            holder.bookName.setBackgroundColor(Color.BLUE);
         }
         else{
-            holder.titel.setBackgroundColor(Color.WHITE);
+            holder.bookName.setBackgroundColor(Color.WHITE);
         }
         Book book = myBookList.get(position);
         holder.bookName.setText(book.getName());
