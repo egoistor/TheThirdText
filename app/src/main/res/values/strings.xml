@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TheThirdText</string>
+    <string name="title_activity_recycle">RecycleActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>
