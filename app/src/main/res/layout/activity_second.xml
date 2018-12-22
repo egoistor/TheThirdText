@@ -24,6 +24,7 @@
                 android:layout_weight="1"/>
 
             <Button
+                 android:background="#7AC5CD"
                 android:id="@+id/add_button"
                 android:text="click to change"
                 android:layout_width="wrap_content"
