@@ -43,7 +43,7 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         if (position % 2 == 0) {
-            holder.bookName.setBackgroundColor(Color.BLUE);
+            holder.bookName.setBackgroundColor(Color.parseColor("#7AC5CD"));
         }
         else{
             holder.bookName.setBackgroundColor(Color.WHITE);
