@@ -23,12 +23,16 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"/>
 
-            <Button
-                 android:background="#7AC5CD"
-                android:id="@+id/add_button"
-                android:text="click to change"
+            <android.support.v7.widget.CardView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="match_parent">
+                <Button
+                    android:background="#FFFFFF"
+                    android:id="@+id/add_button"
+                    android:text="click to change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
 
